@@ -1,12 +1,14 @@
 import './App.css'
-import { Button } from './components/ui/button'
+import Header from './components/Header'
 
 function App() {
 
   return (
-    <div>
-      <div>App</div>
-      <Button>Visa Tracker</Button>
+    <div className='h-screen flex flex-col bg-gray-800 text-white'>
+      <Header />
+      <main className='grow-1 p-6'>
+        main
+      </main>
     </div>
   )
 }
